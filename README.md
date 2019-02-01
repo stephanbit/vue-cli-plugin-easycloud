@@ -12,10 +12,10 @@
 4. Select vue-cli-plugin-easycloud.
 5. Click Install vue-cli-plugin-easycloud button.
 
-### new files after installation
+### New files after installation
 1. cfw.config.js - client framework configuration file (root of the project)
 
-### changes on files after installation
+### Changed files after installation
 1. .gitignore - add cfw.config.js file to avoid commit of credentials;-)
 2. packages.json - add "sdk" : "vue-cli-service sdk" in script section
 

@@ -1,0 +1,51 @@
+{
+  "name": "vue-cli-plugin-easycloud",
+  "version": "0.1.0",
+  "description": "A vue cli plugin to manage client development for easy cloud platform",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "setupFiles": [
+      "<rootDir>/scripts/testSetup.js"
+    ],
+    "testPathIgnorePatterns": [
+      "./generator/template/",
+      "./generator/generator.js"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://"
+  },
+  "keywords": [
+    "vue",
+    "vue-cli",
+    "vue-cli-plugin",
+    "plugin",
+    "cli",
+    "cloud",
+    "apiomat",
+    "cfw"
+  ],
+  "author": "Stephan Bitomsky",
+  "license": "MIT",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "#readme",
+  "dependencies": {
+    "@vue/cli": "^3.4.0",
+    "@vue/cli-plugin-babel": "^3.4.0",
+    "@vue/cli-service": "^3.4.0",
+    "@vue/cli-test-utils": "^3.4.0",
+    "axios": "^0.18.0",
+    "chalk": "^2.4.1",
+    "fs": "0.0.1-security",
+    "jest": "^24.0.0",
+    "ncp": "^2.0.0",
+    "unzip2": "^0.2.5",
+    "vue": "^2.5.17"
+  }
+}
