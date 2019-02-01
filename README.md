@@ -34,3 +34,6 @@ Also a new entry sdk in the tasks section was added. For this task you can speci
 - platform system of the application (you can choose between test, staging and live)
 
 After running the task you can find the sdk in src/lib directory
+
+# FEATURES & ISSUES
+To suggest a feature or report a bug: [https://github.com/stephanbit/vue-cli-plugin-easycloud/issues](https://github.com/stephanbit/vue-cli-plugin-easycloud/issues)
