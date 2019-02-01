@@ -12,6 +12,14 @@
 4. Select vue-cli-plugin-easycloud.
 5. Click Install vue-cli-plugin-easycloud button.
 
+### Install on terminal with vue cli
+1. Open terminal amd take sure you are in the root of your vue project
+````bash
+# add plugin with vue
+vue add vue-cli-plugin-easycloud
+````
+
+
 ### New files after installation
 1. cfw.config.js - client framework configuration file (root of the project)
 
