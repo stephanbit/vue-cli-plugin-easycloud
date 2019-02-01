@@ -1,4 +1,7 @@
-# vue-cli-plugin-easycloud (Easy Cloud Manager)
+<p align="center">[logo]: https://github.com/stephanbit/vue-cli-plugin-easycloud/blob/master/logo.png</p>
+<p align="center"># vue-cli-plugin-easycloud</p>
+<p align="center">Easy Cloud Manager</p>
+
 > Start create your client with EASY Cloud Platform in seconds.
 
 ## Installation
