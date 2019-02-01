@@ -1,6 +1,8 @@
-<p align="center">[logo]: https://github.com/stephanbit/vue-cli-plugin-easycloud/blob/master/logo.png</p>
-<p align="center"># vue-cli-plugin-easycloud</p>
-<p align="center">Easy Cloud Manager</p>
+<p align="center"><img width="140" height="140" src="https://github.com/stephanbit/vue-cli-plugin-easycloud/blob/master/logo.png"</p>
+<h1 align="center">vue-cli-plugin-easycloud</h1>
+<h6 align="center">Easy Cloud Manager</h6>
+<p align="center"></p>
+<p align="center"></p>
 
 > Start create your client with EASY Cloud Platform in seconds.
 
