@@ -142,26 +142,14 @@ module.exports = api => {
               {
                 type: 'input',
                 name: 'user',
-                message: 'User',
+                message: 'Username/Email',
                 value: data.cfw && data.cfw.user
               },
               {
                 type: 'password',
                 name: 'password',
-                message: 'Password (User)',
+                message: 'Password',
                 value: data.cfw && data.cfw.password
-              }
-            ]
-          },
-          {
-            id: 'servers',
-            label: 'Servers',
-            prompts: [
-              {
-                name: 'sysLive',
-                type: 'confirm',
-                default: true,
-                description: 'Use backend system LIVE'
               }
             ]
           }

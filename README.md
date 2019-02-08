@@ -18,7 +18,7 @@
 5. Click Install vue-cli-plugin-easycloud button.
 
 ### Install on terminal with vue cli
-1. Open terminal amd take sure you are in the root of your vue project
+- Open terminal amd take sure you are in the root of your vue project
 ````bash
 # add plugin with vue
 vue add vue-cli-plugin-easycloud
@@ -26,11 +26,40 @@ vue add vue-cli-plugin-easycloud
 
 
 ### New files after installation
-1. cfw.config.js - client framework configuration file (root of the project)
+- `cfw.config.js` - client framework configuration file (root of the project)
+```js
+module.exports = {
+  
+  /**
+   * hostname of your backend system
+   */
+  host: '',
+  
+  /**
+   * customer name of the account
+   */
+  customer: '',
+  
+  /**
+   * user or email address of a registered user
+   */
+  user: '',
+  
+  /**
+   * password of the registered user
+   */
+  password: '',
+  
+  /**
+   * selected backend application
+   */
+  app: '',
+};
+```
 
 ### Changed files after installation
-1. .gitignore - add cfw.config.js file to avoid commit of credentials;-)
-2. packages.json - add "sdk" : "vue-cli-service sdk" in script section
+- `.gitignore` - add cfw.config.js` file to avoid commit of credentials;-)
+- `packages.json` - add `"sdk" : "vue-cli-service sdk"` in script section
 
 ## Quick Setup Guide
 
@@ -50,3 +79,5 @@ After running the task you can find the sdk in src/lib directory
 
 # FEATURES & ISSUES
 To suggest a feature or report a bug: [https://github.com/stephanbit/vue-cli-plugin-easycloud/issues](https://github.com/stephanbit/vue-cli-plugin-easycloud/issues)
+
+https://github.com/stephanbit/vue-cli-plugin-easycloud/blob/master/README.md
